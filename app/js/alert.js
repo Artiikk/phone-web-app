@@ -39,20 +39,20 @@
 // }
 
 
-var username = prompt('Кто пришел?');
-
-if (username == 'Admin') {
-	var pass = prompt('Пароль?');
-
-	if (pass == "Насрал Король") {
-		alert('Добро пожаловать!');
-	} else if (pass == '') {
-		alert('Вход отменен');
-	} else {
-		alert('Пароль неверен, сукин ты сын');
-	}
-} else if (username == '') {
-	alert('Вход отменен');
-} else {
-	alert('Я вас не знаю');
-}
+// var username = prompt('Кто пришел?');
+//
+// if (username == 'Admin') {
+// 	var pass = prompt('Пароль?');
+//
+// 	if (pass == "Насрал Король") {
+// 		alert('Добро пожаловать!');
+// 	} else if (pass == '') {
+// 		alert('Вход отменен');
+// 	} else {
+// 		alert('Пароль неверен, сукин ты сын');
+// 	}
+// } else if (username == '') {
+// 	alert('Вход отменен');
+// } else {
+// 	alert('Я вас не знаю');
+// }
