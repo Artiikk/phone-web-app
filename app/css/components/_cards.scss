@@ -1,0 +1,49 @@
+.cards {
+	height: 570px;
+	text-align: center;
+	border: 1px solid $white;
+	background-color: $white;
+
+	&__name {
+		font: 32px $light-font;
+		padding-bottom: 14px;
+		padding-top: 50px;
+	}
+
+	&__price {
+		border: 1px solid $light_grey;
+		width: 60px;
+		margin: 10px auto 30px;
+		border-radius: 20px;
+	}
+
+	&__shedule {
+		font: 20px $default-font;
+		color: $light_grey;
+		padding-bottom: 40px;
+	}
+
+	&__notes {
+		font: 16px $regularcolor;
+		padding: 0px;
+
+		li {
+			padding-top: 15px;
+
+			img {
+				@include size(13px);
+				margin-left: 2px;
+				margin-bottom: 2px;
+			}
+		}
+	}
+
+	&__button {
+		@extend %startbutton;
+	}
+
+	&__pro {
+		@extend %startbutton;
+		padding-top: 37px;
+	}
+}

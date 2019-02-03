@@ -1,0 +1,7 @@
+body {
+	@include reset;
+	font: 16px/1.75 $default-font;
+	color: $regularcolor;
+	max-width: 100%;
+	overflow-x: hidden;
+}

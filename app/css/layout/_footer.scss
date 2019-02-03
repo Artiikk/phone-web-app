@@ -1,0 +1,51 @@
+footer {
+  .footerItems {
+  	&__text {
+  		font-size: 14px;
+  		padding-top: 20px;
+  		color: $light_grey;
+  	}
+
+  	.interface__details {
+  		padding-top: 30px;
+  		padding-right: 30px;
+  		width: 190px;
+
+  		.help__button a {
+  			padding-left: 34px;
+  			margin: 0;
+  			border-radius: 5px;
+  		}
+  	}
+
+  	&__items {
+  		img {
+  			margin: 45px 24px 50px 0;
+  		}
+  	}
+  }
+
+  .contacts {
+  	&__header {
+  		font: 13px $heavy-font;
+  		text-transform: uppercase;
+  		padding-top: 19px;
+  	}
+
+  	&__items {
+  		padding-top: 20px;
+
+  		.item {
+  			padding-top: 10px;
+
+  			a {
+  				color: $light_grey;
+
+  				&:hover {
+  					color: $black;
+  				}
+  			}
+  		}
+  	}
+  }
+}

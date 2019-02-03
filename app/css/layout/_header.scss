@@ -1,0 +1,15 @@
+#header {
+	padding-top: 47px;
+	background-image: url("../img/Photo.png");
+	background-size: cover;
+
+  .navbar a {
+  	@extend %a_details;
+  	display: inline-block;
+
+
+  	&:hover {
+  		@extend %a_background;
+  	}
+  }
+}
