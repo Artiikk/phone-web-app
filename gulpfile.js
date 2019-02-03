@@ -77,8 +77,8 @@ gulp.task('html:build', function() {
 
 gulp.task('scripts', function() {
 	gulp.src([
-		'vendor/jquery/jquery.js',
-		'vendor/bootstrap/bootstrap.min.js'
+		'node_modules/jquery/dist/jquery.min.js',
+		'node_modules/bootstrap/dist/js/bootstrap.min.js'
 	])
 	.pipe(concat('libs.min.js'))
 	.pipe(uglify())
@@ -87,7 +87,7 @@ gulp.task('scripts', function() {
 
 gulp.task('styles', function() {
 	gulp.src([
-		'vendor/bootstrap/bootstrap.min.css',
+		'node_modules/bootstrap/dist/css/bootstrap.min.css',
 		'node_modules/normalize.css/normalize.css'
 	])
 	.pipe(cleanCSS()) // Сожмем
