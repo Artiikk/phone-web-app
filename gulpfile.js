@@ -77,7 +77,6 @@ gulp.task('html:build', function() {
 
 gulp.task('scripts', function() {
 	gulp.src([
-		'node_modules/jquery/dist/jquery.min.js',
 		'node_modules/bootstrap/dist/js/bootstrap.min.js'
 	])
 	.pipe(concat('libs.min.js'))
@@ -98,7 +97,7 @@ gulp.task('styles', function() {
 gulp.task('js:build', function() {
 	gulp.src(path.app.js) // Найдем наш main файл
 		.pipe(sourcemaps.init()) // Инициализируем sourcemap
-		.pipe(uglify()) // Сожмем наш js
+		// .pipe(uglify()) // Сожмем наш js
 		.pipe(sourcemaps.write()) // Пропишем карты
 		.pipe(gulp.dest(path.dist.js)) // Выплюнем готовый файл в build
 		.pipe(reload({

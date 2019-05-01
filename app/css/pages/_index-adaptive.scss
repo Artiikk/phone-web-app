@@ -129,6 +129,7 @@
   .some__text{
     width: 80%;
   }
+
   .bigPhone img{
     @include size(auto);
     @include max-size(360px);
@@ -142,20 +143,35 @@
 
     }
   }
+  .fir {
+    padding-top: 40px;
+  }
   .everywhere{
     text-align: center;
   }
 
-  .providence{
 
-
-  }
-  .footerItems__text{
-
-  }
 
 }
 @media screen and (max-width: 576px) {
+
+  .get__this {
+    display: none;
+  }
+
+  .real__time{
+    padding-top: 300px;
+  }
+
+  .real__time__second {
+    margin-top: -70px;
+  }
+
+  .real__time__text {
+    margin-top: -10px;
+  }
+
+
 
   .get__this{
     margin-top: -27%;
@@ -185,12 +201,13 @@
   .interface__images img{
     margin: 0 auto;
     @include size(auto);
-    @include max-size(400px);
+    height: 220px;
   }
 
   .providence{
   text-align: center;
   padding-left: 18px;
+  display: none;
   }
   .interface__details {
 	margin: 0 auto;
