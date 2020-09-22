@@ -113,10 +113,11 @@
 
 	a{
 		position: absolute;
+		right: 0;
 		@include size(120px, 45px);
 		padding-top: 11px;
 		color: $white;
-		margin-left: 160px;
+		// margin-left: 160px;
 		background-color: $green;
 		border-radius: 30px;
 		font-size: 14px;

@@ -105,6 +105,7 @@ gulp.task('js:build', function() {
 		})); // И перезагрузим сервер
 });
 
+
 gulp.task('scss:build', function() {
 	gulp.src(path.app.scss) // Выберем наш main.scss
 		.pipe(sourcemaps.init()) // То же самое что и с js
@@ -138,6 +139,7 @@ gulp.task('fonts:build', function() {
 	gulp.src(path.app.fonts)
 		.pipe(gulp.dest(path.dist.fonts))
 });
+
 
 gulp.task('watch', function() {
 	tasks.forEach(task => {

@@ -198,10 +198,6 @@
 .subscribe {
 	margin-top: 90px;
 
-	.interface__getIt__button {
-		@extend %getButton;
-	}
-
 	&__promise {
 		text-align: center;
 		font-size: 14px;
@@ -209,4 +205,10 @@
 		padding-bottom: 100px;
 		padding-top: 30px;
 	}
+}
+
+.interface-form {
+	// width: 600px;
+	display: flex;
+	align-items: center;
 }
